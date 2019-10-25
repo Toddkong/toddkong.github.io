@@ -1,0 +1,17 @@
+{
+"author" : "toddkong",
+"description" : "记录Gitbook的配置和一些插件的使用",
+"language" : "zh-hans",
+ "plugins": 
+ ["mermaid-gb3"],
+
+ "plugins" : [
+        "simple-page-toc"
+    ],
+    "pluginsConfig": {
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        }
+    }
+}
